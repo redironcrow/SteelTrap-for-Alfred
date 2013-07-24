@@ -1,4 +1,4 @@
-#Steel Trap Workflow for Alfred 2 - [Download](https://github.com/redironcrow/SteelTrap-for-Alfred/releases/download/v1.0.0/Steel%20Trap.alfredworkflow)
+#Steel Trap Workflow for Alfred 2 - [Download](https://github.com/redironcrow/SteelTrap-for-Alfred/releases/download/1.0.0/Steel.Trap.alfredworkflow)
 
 Installation
 ------------
