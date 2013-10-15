@@ -5,7 +5,7 @@ Installation
 
 **Requirements:** Ruby >= 1.9.x must be installed with [RVM][] or [rbenv][].
 
-**st setup {email} {api_key}** - Your API key can be obtained from <http://asteeltrap.com/profile/>
+**st setup {email} {api_key}** - Your API key can be obtained from <http://steeltrap.co/profile/>
 
 
 Commands

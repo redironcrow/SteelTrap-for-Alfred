@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.asteeltrap</string>
+	<string>co.steeltrap</string>
 	<key>connections</key>
 	<dict>
 		<key>00495D63-2095-42FB-9338-678F554B0B04</key>
@@ -350,6 +350,6 @@ load 'run_command.rb'</string>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>http://asteeltrap.com</string>
+	<string>http://steeltrap.co</string>
 </dict>
 </plist>

@@ -4,7 +4,7 @@ require 'openssl'
 QUERY = ARGV[0].to_s.downcase.strip
 require_relative "../lib/sly"
 
-api_url="http://asteeltrap.com/api/v1/entries.json"
+api_url="http://steeltrap.co/api/v1/entries.json"
 config = !config ? Sly::Config.new : config
 uri = URI.parse(api_url)
 params = { query:QUERY, email:config.email, token:config.api_key }
@@ -12,7 +12,7 @@ res = Net::HTTP.post_form(uri, params)
 response = JSON(res.body)
 if response["id"]
   puts "Successfully added query."
-  `open http://asteeltrap.com/entries/#{response['id']}/edit`
+  `open http://steeltrap.co/entries/#{response['id']}/edit`
   `open http://www.google.com/search?q=#{URI.encode(QUERY)}`
 else
   puts "Unable to add query to repository."

@@ -3,7 +3,7 @@ module St
   BUNDLE_ID = "com.redironcrow.steeltrap"
   
   #API_URL = "http://localhost:3000/api/v1/entries.json"
-  API_URL = "http://asteeltrap.com/api/v1/entries.json"
+  API_URL = "http://steeltrap.co/api/v1/entries.json"
   CONFIG_FILE = File.expand_path("~/Library/Application Support/Alfred 2/Workflow Data/#{BUNDLE_ID}/config.json")
 
   class ConfigFileMissingError < StandardError; end
